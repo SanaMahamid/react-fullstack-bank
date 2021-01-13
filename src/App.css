@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: black;
+  height: 100%
 }
 
 .App-logo {
@@ -35,4 +37,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.green{
+  color: green;
+}
+
+.red{
+  color: red;
+}
+
+.links div{
+  background-color:white;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-gap: 1vmax;
+}
+
+.home{
+  background-color: black;
+  color: white;
+}
+
+.operations{
+  color: white;
+}
+
+.transactions{
+  color: white;
+}
+
+#categories{
+  color: white;
 }
